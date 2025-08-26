@@ -1,0 +1,52 @@
+body{
+  background-color: black;
+}
+.post{
+  margin: auto;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 500px;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+  "wdth" 100;
+}
+.header{
+  display: flex;
+  align-items: start;
+  gap: 400px;
+  margin: 10px;
+  font-size: 10px;
+  align-items: center;
+}
+.left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.header i{
+  font-size: 15px
+}
+.image{
+  max-width: 100%;
+}
+.interaction{
+  margin: 10px 0 0 10px;
+  font-size:20px;
+  display: flex;
+  width: 100%;
+  gap: 75%;
+}
+.icons{
+  display: flex;
+}
+.body{
+  margin: 10px;
+  font-size: 15px;
+}
